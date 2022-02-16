@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Make sure scripts are not checked out as CRLF
+*.sh text eol=lf
