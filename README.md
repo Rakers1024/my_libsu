@@ -26,16 +26,16 @@ dependencies {
     def libsuVersion = '1.0.0'
 
     // The core module is used by all other components
-    implementation "com.github.topjohnwu.libsu:core:${libsuVersion}"
+    implementation "com.github.JTAHQO.my_libsu:core:${libsuVersion}"
 
     // Optional: APIs for creating root services
-    implementation "com.github.topjohnwu.libsu:service:${libsuVersion}"
+    implementation "com.github.JTAHQO.my_libsu:service:${libsuVersion}"
 
     // Optional: For com.topjohnwu.superuser.io classes
-    implementation "com.github.topjohnwu.libsu:io:${libsuVersion}"
+    implementation "com.github.JTAHQO.my_libsu:io:${libsuVersion}"
 
     // Optional: Bundle prebuilt BusyBox binaries
-    implementation "com.github.topjohnwu.libsu:busybox:${libsuVersion}"
+    implementation "com.github.JTAHQO.my_libsu:busybox:${libsuVersion}"
 }
 ```
 
