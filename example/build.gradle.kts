@@ -6,6 +6,7 @@ android {
     defaultConfig {
         applicationId = "com.topjohnwu.libsuexample"
         minSdkVersion(24)
+
         versionCode = 1
         versionName ="1.0"
     }
@@ -16,8 +17,8 @@ android {
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
+            isShrinkResources = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -32,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+    //implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(project(":core"))
     implementation(project(":io"))
     implementation(project(":busybox"))

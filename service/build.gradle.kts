@@ -13,6 +13,7 @@ group="com.github.topjohnwu.libsu"
 android {
     defaultConfig {
         minSdkVersion(24)
+
     }
 }
 
@@ -50,6 +51,6 @@ android.libraryVariants.all {
 }
 
 dependencies {
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+    //implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     api(project(":core"))
 }
