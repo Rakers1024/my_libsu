@@ -12,7 +12,7 @@ group="com.github.topjohnwu.libsu"
 
 android {
     defaultConfig {
-        minSdkVersion(18)
+        minSdkVersion(24)
     }
 }
 
