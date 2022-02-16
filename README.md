@@ -1,6 +1,6 @@
 # libsu
 
-[![](https://jitpack.io/v/topjohnwu/libsu.svg)](https://jitpack.io/#topjohnwu/libsu)
+[![](https://jitpack.io/v/topjohnwu/libsu.svg)](https://jitpack.io/#JTAHQO/my_libsu)
 
 An Android library providing a complete solution for apps using root permissions.
 
@@ -23,7 +23,7 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 dependencies {
-    def libsuVersion = '3.1.1'
+    def libsuVersion = '1.0.0'
 
     // The core module is used by all other components
     implementation "com.github.topjohnwu.libsu:core:${libsuVersion}"
