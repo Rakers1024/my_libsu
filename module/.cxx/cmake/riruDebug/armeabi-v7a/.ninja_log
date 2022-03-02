@@ -1,0 +1,19 @@
+# ninja log v5
+31	502	667847215	CMakeFiles/subject.dir/memory/fake_dlfcn.cpp.o	6f7c1bd9e114fd1
+208	881	667847216	CMakeFiles/subject.dir/memory/MemoryUtils.cpp.o	c6e63091c2029ed4
+503	1019	667847216	CMakeFiles/subject.dir/zygisk_main.cpp.o	8b3acb579079dd79
+280	1124	667847216	CMakeFiles/subject.dir/imgui/imgui_tables.cpp.o	c1b86929050e8329
+882	1321	667847216	CMakeFiles/subject.dir/hide/MapsRedirector.cpp.o	7cd1ee1ec0f342cb
+172	1487	667847216	CMakeFiles/subject.dir/memory/GameUtils.cpp.o	9adad2191436e865
+1	1614	667847216	CMakeFiles/subject.dir/draw/Draw.cpp.o	63fe50d820b6659e
+1321	1759	667847217	CMakeFiles/subject.dir/imgui/backends/imgui_impl_opengl3.cpp.o	52aa48292661587a
+450	1777	667847217	CMakeFiles/subject.dir/imgui/imgui_draw.cpp.o	5b4012392eefa128
+63	1787	667847217	CMakeFiles/subject.dir/imgui/imgui.cpp.o	1d7514723f7559d3
+388	1802	667847217	CMakeFiles/subject.dir/imgui/imgui_demo.cpp.o	cbf7d41825eeade
+1487	1807	667847217	CMakeFiles/subject.dir/hide/IORelocator.cpp.o	db5184dd49f4fca6
+1617	1811	667847217	CMakeFiles/subject.dir/lib/armeabi-v7a/syscall.s.o	52067430bd552de6
+1019	1829	667847217	CMakeFiles/subject.dir/imgui/stb_image.cpp.o	db5e0138b76d0525
+316	1950	667847217	CMakeFiles/subject.dir/imgui/imgui_widgets.cpp.o	34402caf9e347ed4
+1124	2062	667847217	CMakeFiles/subject.dir/imgui/backends/imgui_impl_android.cpp.o	cdee3b7a8dde258b
+124	2159	667847217	CMakeFiles/subject.dir/draw/imgui_draw_main.cpp.o	3d355cd36d645039
+2159	2542	667847217	E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/build/intermediates/cmake/riruDebug/obj/armeabi-v7a/libsubject.so	615e76a12422dab5

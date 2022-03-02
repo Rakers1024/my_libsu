@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Loewe</string>
+    <string name="enter_uin">请输入用户名</string>
+    <string name="enter_pass">请输入账号密码</string>
+    <string name="uin_login">账号登录</string>
+    <string name="enter_email">请输入绑定QQ号</string>
+    <string name="uin_reg">账号注册</string>
+    <string name="app_info">Copyright © 2021 F_C .All Right Reserved.</string>
+    <string name="pic_ico">TODO</string>
+    <string name="自动识别">自动识别</string>
+    <string name="top_test">账号充值</string>
+</resources>

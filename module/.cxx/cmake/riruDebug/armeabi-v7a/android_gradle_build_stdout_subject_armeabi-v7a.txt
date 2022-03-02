@@ -1,0 +1,654 @@
+ninja: Entering directory `E:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\.cxx\cmake\riruDebug\armeabi-v7a'
+[1/18] Building CXX object CMakeFiles/subject.dir/memory/fake_dlfcn.cpp.o
+[2/18] Building CXX object CMakeFiles/subject.dir/memory/MemoryUtils.cpp.o
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:17:
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\Structs.h:56:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Rect {
+^~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:465:59: warning: multi-character character constant [-Wmultichar]
+            curPat += (*(uint16_t *) curPat == (uint16_t) '\?\?' ||
+                                                          ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:468:52: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+                LOGD("my_loc:%lx lib+offset:%lx ", firstMatch, firstMatch - start);
+                             ~~~                   ^~~~~~~~~~
+                             %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:468:64: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+                LOGD("my_loc:%lx lib+offset:%lx ", firstMatch, firstMatch - start);
+                                            ~~~                ^~~~~~~~~~~~~~~~~~
+                                            %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:473:52: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+                LOGD("my_loc:%lx lib+offset:%lx ", firstMatch, firstMatch - start);
+                             ~~~                   ^~~~~~~~~~
+                             %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:473:64: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+                LOGD("my_loc:%lx lib+offset:%lx ", firstMatch, firstMatch - start);
+                                            ~~~                ^~~~~~~~~~~~~~~~~~
+                                            %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:530:49: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+    LOGD("hook madvise %lx: size:%zu advice:%d",reinterpret_cast<uintptr_t>(__addr),__size,__advice);
+                       ~~~                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:538:85: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+                LOGD("<U+8BFB><U+5230><U+68C0><U+6D4B>: addr:%lx fack_addr:%lx size:%zu my_mincore:%d", address,
+                                                             ~~~                                        ^~~~~~~
+                                                             %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/MemoryUtils.cpp:539:22: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+                     validateMap[i].addr, validateMap[i].size,
+                     ^~~~~~~~~~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+9 warnings generated.
+[3/18] Building CXX object CMakeFiles/subject.dir/zygisk_main.cpp.o
+[4/18] Building CXX object CMakeFiles/subject.dir/imgui/imgui_tables.cpp.o
+[5/18] Building CXX object CMakeFiles/subject.dir/hide/MapsRedirector.cpp.o
+[6/18] Building CXX object CMakeFiles/subject.dir/memory/GameUtils.cpp.o
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:8:
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw\Draw.h:4:
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\Structs.h:56:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Rect {
+^~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:905:55: warning: result of comparison of constant 1099511627776 with expression of type 'uintptr_t' (aka 'unsigned int') is always true [-Wtautological-constant-out-of-range-compare]
+        if (Mesh > 0x1000000 && Mesh % 4 == 0 && Mesh < 0x10000000000) {
+                                                 ~~~~ ^ ~~~~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:1302:32: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+            LOGD("libUE4:%lx", libUE4);
+                         ~~~   ^~~~~~
+                         %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:1332:51: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+            LOGD("<U+5728><U+5927><U+5385>:ue4:%lx - world:%lx", libUE4, uWorldAddress);
+                                               ~~~               ^~~~~~
+                                               %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:1332:59: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+            LOGD("<U+5728><U+5927><U+5385>:ue4:%lx - world:%lx", libUE4, uWorldAddress);
+                                                           ~~~           ^~~~~~~~~~~~~
+                                                           %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:1965:98: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                            isContain(update_data[i].ItemName, "AirDrop") && obj.Distance < 3000 &&showDrop) {
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory/GameUtils.cpp:1965:98: note: place parentheses around the '&&' expression to silence this warning
+                            isContain(update_data[i].ItemName, "AirDrop") && obj.Distance < 3000 &&showDrop) {
+                                                                                                 ^
+                            (                                                                              )
+6 warnings generated.
+[7/18] Building CXX object CMakeFiles/subject.dir/draw/Draw.cpp.o
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:5:
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.h:4:
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\Structs.h:56:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Rect {
+^~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:234:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5C0F><U+5FC3><U+624B><U+96F7>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:239:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+6709><U+4EBA><U+6295><U+63B7><U+70DF><U+96FE>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:244:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5C0F><U+5FC3><U+71C3><U+70E7><U+74F6>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:249:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5C0F><U+5FC3><U+5E73><U+5E95><U+9505>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1300:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "5.56MM";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1309:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "7.62MM";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1318:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "45ACP";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1327:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "9mm";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1336:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "12 Guage";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1345:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "300<U+9A6C><U+683C><U+5357>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1354:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+5F29><U+7BAD>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1369:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "S12K";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1377:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "DBS<U+6563><U+5F39><U+67AA>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1385:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "S686";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1393:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "s1897";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1401:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "DP12";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1412:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+95EA><U+5149><U+5F39>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1420:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+624B><U+69B4><U+5F39>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1428:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+70DF><U+96FE><U+5F39>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1436:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+71C3><U+70E7><U+74F6>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1445:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+5E73><U+5E95><U+9505>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1453:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+9570><U+5200>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1461:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+780D><U+5200>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1469:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+94C1><U+6A47>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1477:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+5341><U+5B57><U+5F29>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1492:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4FE1><U+53F7><U+67AA>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1500:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "AKM";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1508:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "M416";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1516:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "M16A4";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1524:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "SCAR";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1532:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "QBZ";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1540:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "G36C";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1548:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "M762";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1556:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Groza";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1564:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "AUG";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1572:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Dp-28";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1580:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "M249";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1588:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "QBU";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1601:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "UMP9";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1609:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6C64><U+59C6><U+900A><U+51B2><U+950B><U+67AA>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1617:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "PP19";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1625:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Uzi";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1633:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Vector";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1646:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Kar98k";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1654:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+83AB><U+8F9B><U+7EB3><U+7518><U+72D9><U+51FB><U+67AA>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1663:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Mini14";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1671:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "SKS";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1679:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "M24";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1687:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "Mk47";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1695:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "MK14";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1703:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "AWM";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1711:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "SLR";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1724:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "8<U+500D><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1732:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "6<U+500D><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1740:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "4<U+500D><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1748:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "3<U+500D><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1756:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "2<U+500D><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1764:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+7EA2><U+70B9><U+7784><U+51C6><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1772:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+5168><U+606F><U+7784><U+51C6><U+955C>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1785:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+5FEB><U+6269>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1793:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+6269><U+5BB9>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1801:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+72D9><U+51FB><U+67AA><U+5FEB><U+6269>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1809:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+72D9><U+51FB><U+67AA><U+6269><U+5BB9>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1822:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+6D88><U+97F3>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1830:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+72D9><U+51FB><U+67AA><U+6D88><U+97F3>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1838:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+72D9><U+51FB><U+67AA><U+6258><U+816E><U+677F>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1846:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+72D9><U+51FB><U+67AA><U+5B50><U+5F39><U+888B>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1854:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+67AA><U+53E3><U+8865><U+507F>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1862:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+72D9><U+51FB><U+67AA><U+8865><U+507F><U+5668>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1870:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+69CD><U+5782><U+76F4><U+63E1><U+628A>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1878:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+67AA><U+6258>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1886:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+76F4><U+89D2><U+63E1><U+628A>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1894:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B65><U+67AA><U+62C7><U+6307><U+63E1><U+628A>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1902:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+5409><U+5229><U+670D>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1925:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+80BE><U+4E0A><U+817A><U+7D20>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1933:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6025><U+6551><U+5305>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1941:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+533B><U+7597><U+7BB1>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1949:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B62><U+75DB><U+836F>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1957:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+80FD><U+91CF><U+996E><U+6599>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1965:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+6B62><U+8840><U+7EF7><U+5E26>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1978:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E09><U+7EA7><U+5934>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1986:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E09><U+7EA7><U+7532>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:1994:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E09><U+7EA7><U+5305>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2002:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E8C><U+7EA7><U+5934>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2010:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E8C><U+7EA7><U+7532>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2018:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E8C><U+7EA7><U+5305>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2027:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E00><U+7EA7><U+5934>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2035:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E00><U+7EA7><U+7532>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2043:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            *name = "<U+4E00><U+7EA7><U+5305>";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2057:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+88C5><U+7532><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2063:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+7535><U+74F6><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2069:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+6469><U+6258><U+8ECA>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2075:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+4E09><U+8F6E><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2081:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+96EA><U+5730><U+6469><U+6258>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2087:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+4E09><U+8F6E><U+6469><U+6258>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2093:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+8E66><U+8E66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2099:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5C0F><U+8F7F><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2105:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5409><U+666E><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2111:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+76AE><U+5361><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2117:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+76AE><U+5361><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2123:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+8DD1><U+8F66>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2129:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5B9D><U+5B9D><U+5DF4><U+58EB>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2135:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+5FEB><U+8247>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2141:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+6469><U+6258><U+8247>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2148:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+6469><U+6258><U+8247>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2154:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+653E><U+7F6E><U+98DE><U+673A>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2160:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+7535><U+52A8><U+6ED1><U+7FD4><U+673A>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2178:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+72D7><U+7838>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2183:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "SKS";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2188:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "M249";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2193:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "DP28";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2198:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "Kar98k";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2203:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+83AB><U+8F9B><U+7518><U+7EB3>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2209:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "R1895";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2214:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "R45";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2219:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "AKM";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2224:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "AUG";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2229:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "Mini14";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2234:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "M16A4";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2239:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "SCAR";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2244:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "WIN94";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2249:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "UZI";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2254:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "<U+6C64><U+59C6><U+900A>";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2259:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "Vector";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2264:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "UMP9";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2269:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "VSS";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2274:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "M416";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2279:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "MK14";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2284:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "SLR";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2289:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "Mk47";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2294:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "M762";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2299:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "QBZ";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2304:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "QBU";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2309:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "S1897";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2314:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "S12K";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2319:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "S686";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2345:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "AWM";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2350:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        *name = "M24";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/Draw.cpp:2363:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+    *name = "<U+62F3><U+5934>";
+            ^
+140 warnings generated.
+[8/18] Building CXX object CMakeFiles/subject.dir/imgui/backends/imgui_impl_opengl3.cpp.o
+[9/18] Building CXX object CMakeFiles/subject.dir/imgui/imgui_draw.cpp.o
+[10/18] Building CXX object CMakeFiles/subject.dir/imgui/imgui.cpp.o
+[11/18] Building CXX object CMakeFiles/subject.dir/imgui/imgui_demo.cpp.o
+[12/18] Building CXX object CMakeFiles/subject.dir/hide/IORelocator.cpp.o
+[13/18] Building ASM object CMakeFiles/subject.dir/lib/armeabi-v7a/syscall.s.o
+clang.exe: warning: argument unused during compilation: '-D subject_EXPORTS' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/arm-linux-androideabi' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-D ANDROID' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-ffunction-sections' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-funwind-tables' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-fstack-protector-strong' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-fstandalone-debug' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-fvisibility-inlines-hidden' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-MD' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-MT CMakeFiles/subject.dir/lib/armeabi-v7a/syscall.s.o' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-MF CMakeFiles\subject.dir\lib\armeabi-v7a\syscall.s.o.d' [-Wunused-command-line-argument]
+[14/18] Building CXX object CMakeFiles/subject.dir/imgui/stb_image.cpp.o
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/imgui/stb_image.cpp:3480:35: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                case 2: writef(f, "111", d[0],d[0],d[0]);
+                                  ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/imgui/stb_image.cpp:3486:35: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                        writef(f, "111", px[1-rgb_dir],px[1],px[1+rgb_dir]);
+                                  ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/imgui/stb_image.cpp:3491:31: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                    writef(f, "111", d[1-rgb_dir],d[1],d[1+rgb_dir]);
+                              ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/imgui/stb_image.cpp:3519:20: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                   "11 4 22 4" "4 44 22 444444",
+                   ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/imgui/stb_image.cpp:3528:20: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                   "111 221 2222 11", 0,0,2, 0,0,0, 0,0,x,y, 24+8*has_alpha, 8*has_alpha);
+                   ^
+5 warnings generated.
+[15/18] Building CXX object CMakeFiles/subject.dir/imgui/imgui_widgets.cpp.o
+[16/18] Building CXX object CMakeFiles/subject.dir/imgui/backends/imgui_impl_android.cpp.o
+[17/18] Building CXX object CMakeFiles/subject.dir/draw/imgui_draw_main.cpp.o
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:38:
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/memory\GameUtils.h:3:
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\Structs.h:56:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Rect {
+^~~~~~~
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:39:
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\https.h:4660:9: warning: '__packed' macro redefined [-Wmacro-redefined]
+#define __packed __attribute__((packed))
+        ^
+E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include\sys/cdefs.h:118:9: note: previous definition is here
+#define __packed __attribute__((__packed__))
+        ^
+In file included from E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:40:
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:17:23: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+char *strstrstr(const register char *str, const register char *front, const register char *rear,
+                      ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:17:49: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+char *strstrstr(const register char *str, const register char *front, const register char *rear,
+                                                ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:17:77: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+char *strstrstr(const register char *str, const register char *front, const register char *rear,
+                                                                            ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:23:11: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+    const register char *one;
+          ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:24:11: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+    const register char *two;
+          ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:25:11: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+    const register char *f;
+          ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:26:11: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+    const register char *r;
+          ^~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:413:29: warning: sizeof on array function parameter will return size of 'char *' instead of 'char [1024]' [-Wsizeof-array-argument]
+    memset(key, '\0', sizeof(key));
+                            ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:411:21: note: declared here
+void OooOoOoo( char key[1024],char* time,char* jc1,char* jc2,char* jc3){
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:413:30: warning: 'memset' call operates on objects of type 'char' while the size is based on a different type 'char *' [-Wsizeof-pointer-memaccess]
+    memset(key, '\0', sizeof(key));
+           ~~~               ^~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/include\RC4Utils.h:413:30: note: did you mean to provide an explicit length?
+    memset(key, '\0', sizeof(key));
+                             ^~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:936:17: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+    char *key = "{gjgsoagjsoajga==}";
+                ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:937:18: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+    char *key2 = "{sdjfldsjglj==}";
+                 ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:938:18: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+    char *key3 = "{idjgldsjglsj==}";
+                 ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:974:90: warning: format specifies type 'unsigned long' but the argument has type 'uintptr_t' (aka 'unsigned int') [-Wformat]
+        LOGD("<U+8BFB><U+53D6><U+5730><U+5740>:%s pid:%d <U+672C><U+5730><U+5730><U+5740>:%lx my_pid:%d", tmp_home.c_str(), pid, my_libUE4, my_pid);
+                                                                                          ~~~                                    ^~~~~~~~~
+                                                                                          %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/../include/log.h:20:68: note: expanded from macro 'LOGD'
+#define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:981:34: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        sprintf(addr_tmp, "%lx", my_libUE4 + 0x12589);
+                           ~~~   ^~~~~~~~~~~~~~~~~~~
+                           %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1489:34: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        sprintf(addr_tmp, "%lx", my_libUE4 + 0x12589);
+                           ~~~   ^~~~~~~~~~~~~~~~~~~
+                           %x
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1502:21: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        char *key = "{gjgsoagjsoajga==}";
+                    ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1503:22: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        char *key2 = "{sdjfldsjglj==}";
+                     ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1504:22: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        char *key3 = "{idjgldsjglsj==}";
+                     ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1678:8: warning: '/*' within block comment [-Wcomment]
+      //*(reinterpret_cast<int *>(libUE4 + 0x03E53A40)) = 0x01;
+       ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1679:8: warning: '/*' within block comment [-Wcomment]
+      //*(reinterpret_cast<int *>(libUE4 + 0x03E53A40 + 4)) = 0x20;
+       ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1680:8: warning: '/*' within block comment [-Wcomment]
+      //*(reinterpret_cast<int *>(libUE4 + 0x03E53A40 + 8)) = 0xa0;
+       ^
+E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/module/src/main/cpp/draw/imgui_draw_main.cpp:1681:8: warning: '/*' within block comment [-Wcomment]
+      //*(reinterpret_cast<int *>(libUE4 + 0x03E53A40 + 12)) = 0xe3;
+       ^
+24 warnings generated.
+[18/18] Linking CXX shared library "E:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\build\intermediates\cmake\riruDebug\obj\armeabi-v7a\libsubject.so"

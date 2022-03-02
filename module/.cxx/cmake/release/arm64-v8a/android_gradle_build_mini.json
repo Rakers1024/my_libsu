@@ -1,0 +1,59 @@
+{
+  "buildFiles": [
+    "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\whale\\CMakeLists.txt",
+    "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\whale\\src\\assembler\\vixl\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "vixl-Release-arm64-v8a": {
+      "artifactName": "vixl",
+      "buildCommandComponents": [
+        "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a",
+        "vixl"
+      ],
+      "abi": "arm64-v8a",
+      "output": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a\\whale\\src\\assembler\\vixl\\libvixl.a",
+      "runtimeFiles": []
+    },
+    "whale-Release-arm64-v8a": {
+      "artifactName": "whale",
+      "buildCommandComponents": [
+        "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a",
+        "whale"
+      ],
+      "abi": "arm64-v8a",
+      "output": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a\\whale\\libwhale.a",
+      "runtimeFiles": []
+    },
+    "emperor-Release-arm64-v8a": {
+      "artifactName": "emperor",
+      "buildCommandComponents": [
+        "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\arm64-v8a",
+        "emperor"
+      ],
+      "abi": "arm64-v8a",
+      "output": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libemperor.so",
+      "runtimeFiles": []
+    }
+  }
+}

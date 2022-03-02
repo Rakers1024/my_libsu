@@ -1,0 +1,7 @@
+Executable : E:\Android\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\.cxx\cmake\riruDebug\armeabi-v7a
+subject
+jvmArgs : 
+

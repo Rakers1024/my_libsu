@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:id="@+id/mmp5"
+		android:elevation="2dp"
+		android:layout_marginTop="15dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="0xFF000000"
+		android:height="50dp"
+		android:gravity="center"
+		android:id="@+id/mmp4"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="A"
+			android:gravity="center"
+			android:layout_weight="3.0"/>
+
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:id="@+id/seek_Ap"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="FF"
+			android:gravity="center"
+			android:layout_weight="3.0"
+			android:id="@+id/mmp6"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="R"
+			android:gravity="center"
+			android:layout_weight="3.0"/>
+
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:id="@+id/seek_red"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="00"
+			android:gravity="center"
+			android:layout_weight="3.0"
+			android:id="@+id/mmp1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="G"
+			android:gravity="center"
+			android:layout_weight="3.0"/>
+
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:id="@+id/seek_green"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="00"
+			android:gravity="center"
+			android:layout_weight="3.0"
+			android:id="@+id/mmp2"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="B"
+			android:gravity="center"
+			android:layout_weight="3.0"/>
+
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:id="@+id/seek_blue"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:layout_weight="3.0"
+			android:text="00"
+			android:id="@+id/mmp3"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,8 @@
+{
+    global:
+        init;
+        zygisk_module_entry;
+        zygisk_companion_entry;
+    local:
+        *;
+};

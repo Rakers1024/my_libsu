@@ -1,0 +1,242 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a",
+  "cxxBuildFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a",
+  "abiPlatformVersion": 23,
+  "cmake": {
+    "cmakeWrappingBaseFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cxx\\debug\\arm64-v8a",
+    "cmakeArtifactsBaseFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a",
+      "cmakeToolchain": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "E:\\Android\\SDK\\ndk\\android-ndk-r18b"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "E:\\Android\\SDK\\ndk\\android-ndk-r18b"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+        },
+        {
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+          "value": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "23"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
+        },
+        {
+          "name": "MODULE_NAME:STRING",
+          "value": "emperor"
+        },
+        {
+          "name": "RIRU_MODULE_API_VERSION",
+          "value": "25"
+        },
+        {
+          "name": "RIRU_MODULE_VERSION",
+          "value": "300"
+        },
+        {
+          "name": "RIRU_MODULE_VERSION_NAME:STRING",
+          "value": "\"76.0\""
+        },
+        {
+          "name": "RIRU_MODULE_MIN_API_VERSION",
+          "value": "24"
+        }
+      ]
+    },
+    "cmakeServerLogFile": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt"
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DMODULE_NAME:STRING\u003demperor",
+      "-DRIRU_MODULE_API_VERSION\u003d25",
+      "-DRIRU_MODULE_VERSION\u003d300",
+      "-DRIRU_MODULE_VERSION_NAME:STRING\u003d\"76.0\"",
+      "-DRIRU_MODULE_MIN_API_VERSION\u003d24"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "objFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\debug\\lib",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates",
+      "gradleModulePathName": ":module",
+      "moduleRootFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module",
+      "moduleBuildFile": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build.gradle",
+      "makeFile": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "E:\\Android\\SDK\\ndk\\android-ndk-r18b",
+      "ndkVersion": "18.1.5063045",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 28,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "originalCmakeToolchainFile": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "isPreferCmakeFileApiEnabled": true
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi-v7a\\libc++_shared.so",
+          "ARM64_V8A": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so",
+          "X86": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so",
+          "X86_64": "E:\\Android\\SDK\\ndk\\android-ndk-r18b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86_64\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina",
+        "cxxFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\.cxx",
+        "compilerSettingsCacheFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\.cxx",
+        "sdkFolder": "E:\\Android\\SDK",
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": true,
+        "isV2NativeModelEnabled": true
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [
+      "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\1.1.2\\7938f58ab1b5d5360ae72dc21798c0aac5acb50d\\cli-1.1.2-all.jar"
+    ],
+    "prefabPackageDirectoryListFileCollection": [
+      "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\aa8e1581c1a7edea86d5a669a6c62d09\\transformed\\jetified-riru-26.0.0\\prefab"
+    ],
+    "prefabDirectory": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\prefab"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
+}

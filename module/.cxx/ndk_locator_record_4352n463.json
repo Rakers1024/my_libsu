@@ -1,0 +1,11 @@
+{
+  "ndk": "E:\\Android\\SDK\\ndk\\android-ndk-r18b",
+  "revision": {
+    "mMajor": 18,
+    "mMinor": 1,
+    "mMicro": 5063045,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

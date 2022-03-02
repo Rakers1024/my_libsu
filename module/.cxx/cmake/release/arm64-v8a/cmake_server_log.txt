@@ -1,0 +1,434 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp",
+  "buildDirectory": "E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android\\SDK\\ndk\\android-ndk-r18b\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003dE:\\Android\\SDK\\ndk\\android-ndk-r18b",
+    "-DANDROID_PLATFORM\u003dandroid-23",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\Android\\SDK\\ndk\\android-ndk-r18b",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003dE:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d23",
+    "-DCMAKE_FIND_ROOT_PATH\u003dE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\release\\prefab\\arm64-v8a\\prefab",
+    "-DMODULE_NAME:STRING\u003demperor",
+    "-DRIRU_MODULE_API_VERSION\u003d25",
+    "-DRIRU_MODULE_VERSION\u003d300",
+    "-DRIRU_MODULE_VERSION_NAME:STRING\u003d\"76.0\"",
+    "-DRIRU_MODULE_MIN_API_VERSION\u003d24"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":334,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"The ASM compiler identification is Clang","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: The ASM compiler identification is Clang
+CMAKE SERVER: The ASM compiler identification is Clang
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Found assembler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Found assembler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Found assembler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Building Whale for Android(aarch64)...","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Building Whale for Android(aarch64)...
+CMAKE SERVER: Building Whale for Android(aarch64)...
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":356,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":933,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":966,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":333,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":666,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","E:/Android/SDK/ndk/android-ndk-r18b/build/cmake/android.toolchain.cmake","E:/Android/SDK/ndk/android-ndk-r18b/build/cmake/platforms.cmake","E:/Android/SDK/ndk/android-ndk-r18b/build/cmake/android.toolchain.cmake","../../../.cxx/cmake/release/prefab/arm64-v8a/prefab/riruConfig.cmake","whale/CMakeLists.txt","whale/src/assembler/vixl/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake","../../../.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake"]}],"cmakeRootDirectory":"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a","name":"Project","sourceDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp","targets":[{"artifacts":["E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a/whale/libwhale.a"],"buildDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a/whale","fileGroups":[{"compileFlags":"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -fvisibility=hidden -O2 -DNDEBUG  -fPIC   -std=gnu++14","defines":["WHALE_ANDROID_AUTO_LOAD","WHALE_LIBRARY_NAME=\"libwhale.so\""],"includePath":[{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include"},{"isSystem":true,"path":"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include"},{"isSystem":true,"path":"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include"}],"isGenerated":false,"language":"CXX","sources":["src/whale.cc","src/interceptor.cc","src/dbi/hook_common.cc","src/platform/memory.cc","src/assembler/assembler.cc","src/assembler/memory_region.cc","src/dbi/instruction_set.cc","src/libffi/ffi_cxx.cc","src/dbi/arm64/decoder_arm64.cc","src/dbi/arm64/instruction_rewriter_arm64.cc","src/dbi/arm64/inline_hook_arm64.cc","src/android/art/native_on_load.cc","src/android/art/art_runtime.cc","src/android/art/art_symbol_resolver.cc","src/android/art/java_types.cc","src/android/art/well_known_classes.cc","src/android/art/art_method.cc","src/android/art/scoped_thread_state_change.cc","src/android/art/art_jni_trampoline.cc","src/platform/linux/elf_image.cc","src/platform/linux/process_map.cc"]},{"compileFlags":"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fvisibility=hidden -O2 -DNDEBUG  -fPIC  ","defines":["WHALE_ANDROID_AUTO_LOAD","WHALE_LIBRARY_NAME=\"libwhale.so\""],"includePath":[{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include"}],"isGenerated":false,"language":"C","sources":["src/libffi/closures.c","src/libffi/debug.c","src/libffi/dlmalloc.c","src/libffi/java_raw_api.c","src/libffi/prep_cif.c","src/libffi/raw_api.c","src/libffi/types.c","src/libffi/aarch64/ffi_arm64.c"]},{"compileFlags":"  -x assembler-with-cpp -arch arm64 -O2 -DNDEBUG  -fPIC  ","defines":["WHALE_ANDROID_AUTO_LOAD","WHALE_LIBRARY_NAME=\"libwhale.so\""],"includePath":[{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include"}],"isGenerated":false,"language":"ASM","sources":["src/libffi/aarch64/sysv_arm64.S"]}],"fullName":"libwhale.a","linkerLanguage":"CXX","name":"whale","sourceDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale","sysroot":"E:/Android/SDK/ndk/android-ndk-r18b/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a/whale/src/assembler/vixl/libvixl.a"],"buildDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a/whale/src/assembler/vixl","fileGroups":[{"compileFlags":"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -fvisibility=hidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O2 -DNDEBUG  -fPIC   -std=gnu++14","defines":["VIXL_CODE_BUFFER_MALLOC","WHALE_ANDROID_AUTO_LOAD"],"includePath":[{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl"},{"isSystem":true,"path":"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include"},{"isSystem":true,"path":"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include"}],"isGenerated":false,"language":"CXX","sources":["code-buffer-vixl.cc","compiler-intrinsics-vixl.cc","cpu-features.cc","utils-vixl.cc","aarch64/assembler-aarch64.cc","aarch64/cpu-aarch64.cc","aarch64/cpu-features-auditor-aarch64.cc","aarch64/decoder-aarch64.cc","aarch64/instructions-aarch64.cc","aarch64/instrument-aarch64.cc","aarch64/logic-aarch64.cc","aarch64/macro-assembler-aarch64.cc","aarch64/operands-aarch64.cc","aarch64/pointer-auth-aarch64.cc","aarch64/simulator-aarch64.cc"]}],"fullName":"libvixl.a","linkerLanguage":"CXX","name":"vixl","sourceDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl","sysroot":"E:/Android/SDK/ndk/android-ndk-r18b/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/build/intermediates/cmake/release/obj/arm64-v8a/libemperor.so"],"buildDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/release/arm64-v8a","fileGroups":[{"compileFlags":"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -O0 -fno-limit-debug-info  -mllvm -sobf -mllvm -sub -fPIC   -fvisibility-inlines-hidden","defines":["RIRU_MODULE","RIRU_MODULE_API_VERSION=25","RIRU_MODULE_MIN_API_VERSION=24","RIRU_MODULE_VERSION=300","RIRU_MODULE_VERSION_NAME=\"76.0\"","emperor_EXPORTS"],"includePath":[{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/imgui"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/hide"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/xhook"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/memory"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/draw"},{"isSystem":true,"path":"C:/Users/admin/.gradle/caches/transforms-3/aa8e1581c1a7edea86d5a669a6c62d09/transformed/jetified-riru-26.0.0/prefab/modules/riru/include"},{"isSystem":true,"path":"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include"},{"isSystem":true,"path":"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include"}],"isGenerated":false,"language":"CXX","sources":["MainEntry.cpp","draw/Draw.cpp","draw/imgui_draw_main.cpp","memory/MemoryUtils.cpp","memory/GameUtils.cpp","memory/fake_dlfcn.cpp","imgui/imgui.cpp","imgui/imgui_demo.cpp","imgui/imgui_draw.cpp","imgui/imgui_tables.cpp","imgui/imgui_widgets.cpp","imgui/stb_image.cpp","imgui/backends/imgui_impl_android.cpp","imgui/backends/imgui_impl_opengl3.cpp","hide/MapsRedirector.cpp","hide/IORelocator.cpp"]},{"compileFlags":"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -fvisibility-inlines-hidden","defines":["RIRU_MODULE","RIRU_MODULE_API_VERSION=25","RIRU_MODULE_MIN_API_VERSION=24","RIRU_MODULE_VERSION=300","RIRU_MODULE_VERSION_NAME=\"76.0\"","emperor_EXPORTS"],"includePath":[{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/imgui"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/hide"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/xhook"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/include"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/memory"},{"path":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/draw"},{"isSystem":true,"path":"C:/Users/admin/.gradle/caches/transforms-3/aa8e1581c1a7edea86d5a669a6c62d09/transformed/jetified-riru-26.0.0/prefab/modules/riru/include"}],"isGenerated":false,"language":"ASM","sources":["lib/arm64-v8a/syscall.s"]}],"fullName":"libemperor.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot E:/Android/SDK/ndk/android-ndk-r18b/platforms/android-23/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -LE:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now   -s","linkLibraries":"-lGLESv3 -landroid \"E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\lib\\arm64-v8a\\libdobby.a\" -lEGL -llog -lz -latomic -lm \"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a\" \"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a\"","linkerLanguage":"CXX","name":"emperor","sourceDirectory":"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp","sysroot":"E:/Android/SDK/ndk/android-ndk-r18b/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

@@ -1,0 +1,29 @@
+                    Executable : E:\Android\SDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\src\main\cpp
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=E:\Android\SDK\ndk\android-ndk-r18b\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=E:\Android\SDK\ndk\android-ndk-r18b
+-DANDROID_PLATFORM=android-23
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_ANDROID_NDK=E:\Android\SDK\ndk\android-ndk-r18b
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\build\intermediates\cmake\riruDebug\obj\armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\build\intermediates\cmake\riruDebug\obj\armeabi-v7a
+-DCMAKE_MAKE_PROGRAM=E:\Android\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=23
+-DCMAKE_FIND_ROOT_PATH=E:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\.cxx\cmake\riruDebug\prefab\armeabi-v7a\prefab
+-DMODULE_NAME:STRING=subject
+-DRIRU_MODULE_API_VERSION=30
+-DRIRU_MODULE_VERSION=300
+-DRIRU_MODULE_VERSION_NAME:STRING="75.0"
+-DRIRU_MODULE_MIN_API_VERSION=9
+-BE:\AndroidProject\gamehelp2022\Game2022\myoroject _imgui\module\.cxx\cmake\riruDebug\armeabi-v7a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 1

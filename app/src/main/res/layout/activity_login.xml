@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:id="@+id/page_login"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/mLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ico2"
+            android:contentDescription="@string/pic_ico"
+            app:tint="#FFFFFFFF" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_id_layout"
+            style="@style/CustomOutlineBox"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            android:hint="@string/enter_uin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_id"
+                android:textSize="13dp"
+                android:textCursorDrawable="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_password_layout"
+            style="@style/CustomOutlineBox"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="5dp"
+            app:passwordToggleEnabled="false"
+            android:hint="@string/enter_pass">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_password"
+                android:textSize="13dp"
+                android:textColor="#ffffff"
+                android:textCursorDrawable="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:layout_marginVertical="50dp"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            >
+            <FrameLayout
+                android:id="@+id/page_reg"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+                <TextView
+                    android:id="@+id/title_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/uin_login"
+                    android:textColor="#FF4195F8"
+                    android:textSize="13sp" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/page_top"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+                <TextView
+                    android:id="@+id/tv_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/top_test"
+                    android:textColor="#FF4195F8"
+                    android:textSize="13sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/page_register"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/mLogo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ico2"
+            android:contentDescription="@string/pic_ico"
+            app:tint="#FFFFFFFF" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_id_layout"
+            style="@style/CustomOutlineBox"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            android:hint="@string/enter_uin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reg_id"
+                android:textSize="13dp"
+                android:textCursorDrawable="@null"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_password_layout"
+            style="@style/CustomOutlineBox"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="5dp"
+            android:hint="@string/enter_pass">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:textSize="13dp"
+                android:textCursorDrawable="@null"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_email_layout"
+            style="@style/CustomOutlineBox"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="5dp"
+            android:hint="@string/enter_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textCursorDrawable="@null"
+                android:textColor="#ffffff"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <FrameLayout
+            android:id="@+id/page_reg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/title_reg2"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/uin_reg"
+                android:textColor="#FF4195F8"
+                android:textSize="13sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/page_ico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        app:srcCompat="@drawable/ico2"
+        app:tint="#FFFFFFFF"
+        android:contentDescription="@string/pic_ico" />
+
+    <LinearLayout
+        android:id="@+id/page_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/uin_login"
+                android:textColor="#FF4195F8"
+                android:textSize="13sp" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/tv_reg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/uin_reg"
+                android:textColor="#FF4195F8"
+                android:textSize="13sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/app_info"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12sp" />
+
+
+</FrameLayout>

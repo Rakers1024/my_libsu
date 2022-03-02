@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFFFFFFF">
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#FFFFFFFF">
+
+        <LinearLayout
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:id="@+id/bt_back">
+
+            <ImageView
+                android:id="@+id/returnH"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:src="@drawable/left"
+                android:padding="6dp"
+                app:tint="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="程序配置"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+           />
+        <Button
+            android:id="@+id/export_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="导出配置"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            />
+        <Button
+            android:id="@+id/import_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="导入配置"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+
+
+
+    <CheckBox
+        android:id="@+id/hidden"
+        android:textStyle="bold"
+        android:textColor="#FF656565"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐藏程序后台"
+        android:layout_marginLeft="15dp"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/m3_appbar_expanded_title_margin_horizontal"
+            android:paddingVertical="?dialogPreferredPadding"
+            >
+
+            <LinearLayout
+                style="@style/Widget.Material3.CardView.Outlined"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="欢迎来到迷你世界"
+                    android:textAppearance="?textAppearanceBody2"
+                    style="@style/Widget.Material3.CardView.Outlined"
+
+                    android:layout_marginBottom="26dp"
+                    android:layout_marginTop="26dp"
+                    android:textSize="18sp" />
+
+
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/status"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+              >
+
+                <RelativeLayout
+                    android:id="@+id/safe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hook_true"
+                    android:paddingLeft="24dp"
+                    android:paddingTop="24dp"
+
+                    android:paddingRight="24dp"
+                    android:paddingBottom="16dp"
+                   >
+
+
+                    <ImageView
+                        android:id="@+id/status_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignTop="@+id/status_summary"
+                        android:layout_alignBottom="@+id/status_summary"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="-19dp"
+                        android:layout_marginBottom="20dp"
+
+                        app:tint="#ffffff"
+                 />
+
+                    <TextView
+                        android:id="@+id/status_title"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/status_icon"
+                        android:layout_marginEnd="-230dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="已激活"
+                        android:textAppearance="?textAppearanceTitleMedium"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/status_summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/status_title"
+                        android:layout_alignStart="@id/status_title"
+                        android:text="开始奔放吧!!"
+                        android:textAppearance="?textAppearanceBodyMedium"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </FrameLayout>
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+
+
+
+                android:paddingBottom="16dp">
+
+                <LinearLayout
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_corner"
+                    android:orientation="vertical"
+
+                    android:padding="24dp">
+
+                    <LinearLayout
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_round_settings_24"
+                            app:tint="#D81B60" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="版本信息"
+                            android:textAppearance="?textAppearanceTitleMedium"
+                            android:textColor="#FFD81B60"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+
+                        android:text="框架版本" />
+
+                    <TextView
+                        android:id="@+id/framework_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="等待检测" />
+
+                    <TextView
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+
+                        android:text="管理器版本" />
+
+                    <TextView
+                        android:id="@+id/manager_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="未安装或被随机包名" />
+
+                    <TextView
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Magisk版本" />
+
+                    <TextView
+                        android:id="@+id/magisk_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="未安装或被随机包名" />
+
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/info_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp">
+
+                <LinearLayout
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_corner"
+                    android:orientation="vertical"
+
+                    android:padding="24dp">
+
+                    <LinearLayout
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_set_24"
+                            app:tint="#D81B60"
+                         />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="系统信息"
+                            android:textAppearance="?textAppearanceTitleMedium"
+                            android:textColor="#FFD81B60"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+
+                        android:text="系统版本" />
+
+                    <TextView
+                        android:id="@+id/system_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="等待获取" />
+
+                    <TextView
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="16dp"
+
+                        android:text="当前设备" />
+
+                    <TextView
+                        android:id="@+id/device"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="等待获取" />
+
+                    <TextView
+                        style="@style/Widget.Material3.CardView.Outlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="16dp"
+                        android:text="游戏构造" />
+
+                    <TextView
+                        android:id="@+id/system_abi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="0dp"
+                        android:text="arm64-v8a" />
+
+
+                </LinearLayout>
+
+
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

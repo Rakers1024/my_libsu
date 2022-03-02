@@ -1,0 +1,17 @@
+ext {
+    moduleLibraryName = "emperor"
+    moduleMinRiruApiVersion = 26
+    moduleMinRiruVersionName = "v26.0"
+    moduleRiruApiVersion = 26
+
+    moduleMinZygiskApiVersion = 24
+    moduleZygiskApiVersion = 25
+
+    magiskModuleId = "emperor"
+    moduleName = "emperor"
+    moduleAuthor = "emperor"
+    moduleDescription = "Used to modify system permissions"
+    moduleVersion = "76.0"
+    moduleVersionCode = 300
+}
+

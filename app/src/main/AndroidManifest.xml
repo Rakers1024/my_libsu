@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.kmxs.reader">
+
+    <!-- 请求忽略电池优化 -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!-- 此应用可显示在其他应用上方 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 拥有完全的网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 修改或删除您共享存储空间中的内容 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取您共享存储空间中的内容 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 前台服务 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!-- android:extractNativeLibs="false"-->
+
+
+    <application
+        android:extractNativeLibs="true"
+        android:allowBackup="false"
+        android:name=".App"
+        android:icon="@drawable/ic_launcher"
+        android:label="Loewe"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:resizeableActivity="true"
+        android:supportsPictureInPicture="true"
+        android:requestLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+
+
+        tools:targetApi="n">
+
+        <activity
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|screenLayout"
+            android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:theme="@style/AppTheme2"
+            android:taskAffinity=":main_task"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|screenLayout"
+            android:name=".activity.MainActivity" />
+
+        <activity
+            android:theme="@style/AppTheme2"
+            android:name=".activity.LogActivity" />
+
+        <activity
+            android:theme="@style/AppTheme2"
+            android:name=".activity.SettingActivity" />
+        <activity
+            android:theme="@style/AppTheme2"
+            android:name=".activity.ModuleInof" />
+
+
+        <!-- 适配全面屏屏 -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <!-- 适配华为（huawei）刘海屏 -->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+
+        <!-- 适配小米（xiaomi）刘海屏 -->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
+        <!--
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.kmxs.reader"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/config_filepaths" />
+        </provider>
+
+
+        <meta-data
+            android:name="hiderecord"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="实现过录屏权限" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scope" />-->
+    </application>
+
+</manifest>

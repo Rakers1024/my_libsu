@@ -1,0 +1,569 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: arm64-v8a",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json due to:",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\module\\src\\main\\cpp\\whale\\CMakeLists.txt",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\module\\src\\main\\cpp\\whale\\src\\assembler\\vixl\\CMakeLists.txt",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : null\narguments : \n--build-system\ncmake\n--platform\nandroid\n--abi\narm64-v8a\n--os-version\n23\n--stl\nc++_static\n--ndk-version\n18\n--output\nE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab\nC:\\Users\\admin\\.gradle\\caches\\transforms-3\\aa8e1581c1a7edea86d5a669a6c62d09\\transformed\\jetified-riru-26.0.0\\prefab\njvmArgs : \n\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a\u0027",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a\u0027",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : E:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android\\SDK\\ndk\\android-ndk-r18b\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dE:\\Android\\SDK\\ndk\\android-ndk-r18b\n-DANDROID_PLATFORM\u003dandroid-23\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003dE:\\Android\\SDK\\ndk\\android-ndk-r18b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003dE:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d23\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab\n-DMODULE_NAME:STRING\u003demperor\n-DRIRU_MODULE_API_VERSION\u003d25\n-DRIRU_MODULE_VERSION\u003d300\n-DRIRU_MODULE_VERSION_NAME:STRING\u003d\"76.0\"\n-DRIRU_MODULE_MIN_API_VERSION\u003d24\n-BE:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp\",\n  \"buildDirectory\": \"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dE:\\\\Android\\\\SDK\\\\ndk\\\\android-ndk-r18b\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003dE:\\\\Android\\\\SDK\\\\ndk\\\\android-ndk-r18b\",\n    \"-DANDROID_PLATFORM\\u003dandroid-23\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_NDK\\u003dE:\\\\Android\\\\SDK\\\\ndk\\\\android-ndk-r18b\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dE:\\\\AndroidProject\\\\gamehelp2022\\\\Game2022\\\\myoroject _imgui\\\\PubgChina\\\\module\\\\build\\\\intermediates\\\\cmake\\\\debug\\\\obj\\\\arm64-v8a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003dE:\\\\AndroidProject\\\\gamehelp2022\\\\Game2022\\\\myoroject _imgui\\\\PubgChina\\\\module\\\\build\\\\intermediates\\\\cmake\\\\debug\\\\obj\\\\arm64-v8a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dE:\\\\Android\\\\SDK\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d23\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003dE:\\\\AndroidProject\\\\gamehelp2022\\\\Game2022\\\\myoroject _imgui\\\\PubgChina\\\\module\\\\.cxx\\\\cmake\\\\debug\\\\prefab\\\\arm64-v8a\\\\prefab\",\n    \"-DMODULE_NAME:STRING\\u003demperor\",\n    \"-DRIRU_MODULE_API_VERSION\\u003d25\",\n    \"-DRIRU_MODULE_VERSION\\u003d300\",\n    \"-DRIRU_MODULE_VERSION_NAME:STRING\\u003d\\\"76.0\\\"\",\n    \"-DRIRU_MODULE_MIN_API_VERSION\\u003d24\"\n  ]\n}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The ASM compiler identification is Clang\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "The ASM compiler identification is Clang",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found assembler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Found assembler: E:/Android/SDK/ndk/android-ndk-r18b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Building Whale for Android(aarch64)...\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Building Whale for Android(aarch64)...",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":933,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":966,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":333,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":666,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"E:/Android/SDK/ndk/android-ndk-r18b/build/cmake/android.toolchain.cmake\",\"E:/Android/SDK/ndk/android-ndk-r18b/build/cmake/platforms.cmake\",\"E:/Android/SDK/ndk/android-ndk-r18b/build/cmake/android.toolchain.cmake\",\"../../../.cxx/cmake/debug/prefab/arm64-v8a/prefab/riruConfig.cmake\",\"whale/CMakeLists.txt\",\"whale/src/assembler/vixl/CMakeLists.txt\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake\",\"../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake\"]}],\"cmakeRootDirectory\":\"E:/Android/SDK/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a\",\"name\":\"Project\",\"sourceDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp\",\"targets\":[{\"artifacts\":[\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a/whale/libwhale.a\"],\"buildDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a/whale\",\"fileGroups\":[{\"compileFlags\":\"  -x assembler-with-cpp -arch arm64 -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"WHALE_ANDROID_AUTO_LOAD\",\"WHALE_LIBRARY_NAME\u003d\\\"libwhale.so\\\"\"],\"includePath\":[{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include\"}],\"isGenerated\":false,\"language\":\"ASM\",\"sources\":[\"src/libffi/aarch64/sysv_arm64.S\"]},{\"compileFlags\":\"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security -std\u003dc++11  -fvisibility\u003dhidden -O0 -fno-limit-debug-info  -fPIC   -std\u003dgnu++14\",\"defines\":[\"WHALE_ANDROID_AUTO_LOAD\",\"WHALE_LIBRARY_NAME\u003d\\\"libwhale.so\\\"\"],\"includePath\":[{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include\"},{\"isSystem\":true,\"path\":\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include\"},{\"isSystem\":true,\"path\":\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/whale.cc\",\"src/interceptor.cc\",\"src/dbi/hook_common.cc\",\"src/platform/memory.cc\",\"src/assembler/assembler.cc\",\"src/assembler/memory_region.cc\",\"src/dbi/instruction_set.cc\",\"src/libffi/ffi_cxx.cc\",\"src/dbi/arm64/decoder_arm64.cc\",\"src/dbi/arm64/instruction_rewriter_arm64.cc\",\"src/dbi/arm64/inline_hook_arm64.cc\",\"src/android/art/native_on_load.cc\",\"src/android/art/art_runtime.cc\",\"src/android/art/art_symbol_resolver.cc\",\"src/android/art/java_types.cc\",\"src/android/art/well_known_classes.cc\",\"src/android/art/art_method.cc\",\"src/android/art/scoped_thread_state_change.cc\",\"src/android/art/art_jni_trampoline.cc\",\"src/platform/linux/elf_image.cc\",\"src/platform/linux/process_map.cc\"]},{\"compileFlags\":\"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security  -fvisibility\u003dhidden -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"WHALE_ANDROID_AUTO_LOAD\",\"WHALE_LIBRARY_NAME\u003d\\\"libwhale.so\\\"\"],\"includePath\":[{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/libffi/closures.c\",\"src/libffi/debug.c\",\"src/libffi/dlmalloc.c\",\"src/libffi/java_raw_api.c\",\"src/libffi/prep_cif.c\",\"src/libffi/raw_api.c\",\"src/libffi/types.c\",\"src/libffi/aarch64/ffi_arm64.c\"]}],\"fullName\":\"libwhale.a\",\"linkerLanguage\":\"CXX\",\"name\":\"whale\",\"sourceDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale\",\"sysroot\":\"E:/Android/SDK/ndk/android-ndk-r18b/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/build/intermediates/cmake/debug/obj/arm64-v8a/libemperor.so\"],\"buildDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security -std\u003dc++11  -O0 -fno-limit-debug-info  -fPIC   -fvisibility-inlines-hidden\",\"defines\":[\"RIRU_MODULE\",\"RIRU_MODULE_API_VERSION\u003d25\",\"RIRU_MODULE_MIN_API_VERSION\u003d24\",\"RIRU_MODULE_VERSION\u003d300\",\"RIRU_MODULE_VERSION_NAME\u003d\\\"76.0\\\"\",\"emperor_EXPORTS\"],\"includePath\":[{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/imgui\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/hide\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/xhook\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/memory\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/draw\"},{\"isSystem\":true,\"path\":\"C:/Users/admin/.gradle/caches/transforms-3/aa8e1581c1a7edea86d5a669a6c62d09/transformed/jetified-riru-26.0.0/prefab/modules/riru/include\"},{\"isSystem\":true,\"path\":\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include\"},{\"isSystem\":true,\"path\":\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"MainEntry.cpp\",\"draw/Draw.cpp\",\"draw/imgui_draw_main.cpp\",\"memory/MemoryUtils.cpp\",\"memory/GameUtils.cpp\",\"memory/fake_dlfcn.cpp\",\"imgui/imgui.cpp\",\"imgui/imgui_demo.cpp\",\"imgui/imgui_draw.cpp\",\"imgui/imgui_tables.cpp\",\"imgui/imgui_widgets.cpp\",\"imgui/stb_image.cpp\",\"imgui/backends/imgui_impl_android.cpp\",\"imgui/backends/imgui_impl_opengl3.cpp\",\"hide/MapsRedirector.cpp\",\"hide/IORelocator.cpp\"]},{\"compileFlags\":\"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info  -fPIC   -fvisibility-inlines-hidden\",\"defines\":[\"RIRU_MODULE\",\"RIRU_MODULE_API_VERSION\u003d25\",\"RIRU_MODULE_MIN_API_VERSION\u003d24\",\"RIRU_MODULE_VERSION\u003d300\",\"RIRU_MODULE_VERSION_NAME\u003d\\\"76.0\\\"\",\"emperor_EXPORTS\"],\"includePath\":[{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/imgui\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/hide\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/xhook\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/memory\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/draw\"},{\"isSystem\":true,\"path\":\"C:/Users/admin/.gradle/caches/transforms-3/aa8e1581c1a7edea86d5a669a6c62d09/transformed/jetified-riru-26.0.0/prefab/modules/riru/include\"}],\"isGenerated\":false,\"language\":\"ASM\",\"sources\":[\"lib/arm64-v8a/syscall.s\"]}],\"fullName\":\"libemperor.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot E:/Android/SDK/ndk/android-ndk-r18b/platforms/android-23/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -LE:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now\",\"linkLibraries\":\"-lGLESv3 -landroid \\\"E:\\\\AndroidProject\\\\gamehelp2022\\\\Game2022\\\\myoroject _imgui\\\\PubgChina\\\\module\\\\src\\\\main\\\\cpp\\\\lib\\\\arm64-v8a\\\\libdobby.a\\\" -lEGL -llog -lz -latomic -lm \\\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a\\\" \\\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a\\\"\",\"linkerLanguage\":\"CXX\",\"name\":\"emperor\",\"sourceDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp\",\"sysroot\":\"E:/Android/SDK/ndk/android-ndk-r18b/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a/whale/src/assembler/vixl/libvixl.a\"],\"buildDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/.cxx/cmake/debug/arm64-v8a/whale/src/assembler/vixl\",\"fileGroups\":[{\"compileFlags\":\"-isystem E:/Android/SDK/ndk/android-ndk-r18b/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security -std\u003dc++11  -fvisibility\u003dhidden -Wall -Werror -fdiagnostics-show-option -Wextra -Wredundant-decls -pedantic -Wwrite-strings -Wunused -O0 -fno-limit-debug-info  -fPIC   -std\u003dgnu++14\",\"defines\":[\"VIXL_CODE_BUFFER_MALLOC\",\"WHALE_ANDROID_AUTO_LOAD\"],\"includePath\":[{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/libffi/platform_include\"},{\"path\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl\"},{\"isSystem\":true,\"path\":\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include\"},{\"isSystem\":true,\"path\":\"E:/Android/SDK/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"code-buffer-vixl.cc\",\"compiler-intrinsics-vixl.cc\",\"cpu-features.cc\",\"utils-vixl.cc\",\"aarch64/assembler-aarch64.cc\",\"aarch64/cpu-aarch64.cc\",\"aarch64/cpu-features-auditor-aarch64.cc\",\"aarch64/decoder-aarch64.cc\",\"aarch64/instructions-aarch64.cc\",\"aarch64/instrument-aarch64.cc\",\"aarch64/logic-aarch64.cc\",\"aarch64/macro-assembler-aarch64.cc\",\"aarch64/operands-aarch64.cc\",\"aarch64/pointer-auth-aarch64.cc\",\"aarch64/simulator-aarch64.cc\"]}],\"fullName\":\"libvixl.a\",\"linkerLanguage\":\"CXX\",\"name\":\"vixl\",\"sourceDirectory\":\"E:/AndroidProject/gamehelp2022/Game2022/myoroject _imgui/PubgChina/module/src/main/cpp/whale/src/assembler/vixl\",\"sysroot\":\"E:/Android/SDK/ndk/android-ndk-r18b/sysroot\",\"type\":\"STATIC_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "E:\\AndroidProject\\gamehelp2022\\Game2022\\myoroject _imgui\\PubgChina\\module\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]
